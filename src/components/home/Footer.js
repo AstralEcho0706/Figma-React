@@ -14,13 +14,13 @@ const footerData = {
       link: "#",
       icon: "../assets/group-25.svg",
     },
-    { label: "Blog", link: "#", icon: "../assets/group-25.svg" },
-    { label: "FAQs", link: "#", icon: "../assets/group-25.svg" },
-    { label: "Results", link: "#", icon: "../assets/group-25.svg" },
+    // { label: "Blog", link: "#", icon: "../assets/group-25.svg" },
+    // { label: "FAQs", link: "#", icon: "../assets/group-25.svg" },
+    // { label: "Results", link: "#", icon: "../assets/group-25.svg" },
   ],
   contact: {
     label: "Contact Us",
-    buttonBackground: "../assets/rectangle-32.svg",
+    // buttonBackground: "../assets/rectangle-32.svg",
   },
 };
 
