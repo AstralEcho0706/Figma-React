@@ -1,0 +1,26 @@
+.detailed-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.subsection {
+  width: 30%;
+  background-size: cover;
+  padding: 20px;
+  margin: 10px;
+}
+
+.subsection h2 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.subsection p {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+}

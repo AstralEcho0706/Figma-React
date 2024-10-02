@@ -1,0 +1,27 @@
+/* add css to header.js component */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  width: 432px;
+  height: 24px;
+  top: 50px;
+  left: 591px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.navigation a {
+  margin: 0 50px ;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}

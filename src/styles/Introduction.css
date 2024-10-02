@@ -1,0 +1,19 @@
+.introduction {
+  text-align: center;
+  padding: 50px;
+}
+
+.introduction h1 {
+  color: #ffffff;
+  font-size: 109px;
+  line-height: 133px;
+  font-weight: 700;
+}
+
+.introduction p {
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 38px;
+  font-weight: 400;
+  margin: 20px 0;
+}

@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay with some transparency */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer-link img {
+  margin-right: 8px;
+}
+
+.footer-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+.contact-section button {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #ddd;
+}
