@@ -32,20 +32,41 @@ const detailedSectionData = {
 
 function DetailedSection() {
   return (
-    <section className="detailed-section">
-      {detailedSectionData.sections.map((section, index) => (
-        <div
-          key={index}
-          className="subsection"
-          style={{ backgroundImage: `url(${section.background})` }}
-        >
-          {section.title && <h2>{section.title}</h2>}
-          {section.paragraphs.map((para, idx) => (
-            <p key={idx}>{para}</p>
-          ))}
+    <div className="md:pr-[128px] pl-[164px] flex text-white gap-4 sm:pr-0">
+      <div className="bg-green-400 px-[43px] pt-[27px] pb-[86px] rounded-xl translate-y-[-80px]">
+        <div>Our basic approach works well for any field in any condition…</div>
+        <div>
+          A full nutritional analysis from water to leaf and an explanation of
+          what they are doing to the crop.
         </div>
-      ))}
-    </section>
+        <div>
+          This helps us target toxins, deficiencies and excesses that we will
+          correct over time.
+        </div>
+      </div>
+      <div className="bg-green-400 px-[43px] pt-[27px] pb-[86px] rounded-xl translate-y-[-120px]">
+        <div>Our basic approach works well for any field in any condition…</div>
+        <div>
+          A full nutritional analysis from water to leaf and an explanation of
+          what they are doing to the crop.
+        </div>
+        <div>
+          This helps us target toxins, deficiencies and excesses that we will
+          correct over time.
+        </div>
+      </div>
+      <div className="bg-green-400 px-[43px] pt-[27px] pb-[86px] rounded-xl translate-y-[-80px]">
+        <div>Our basic approach works well for any field in any condition…</div>
+        <div>
+          A full nutritional analysis from water to leaf and an explanation of
+          what they are doing to the crop.
+        </div>
+        <div>
+          This helps us target toxins, deficiencies and excesses that we will
+          correct over time.
+        </div>
+      </div>
+    </div>
   );
 }
 

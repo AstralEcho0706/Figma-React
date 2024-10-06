@@ -1,32 +1,44 @@
 /* add css to header.js component */
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .logo {
-  height: 50px;
+  width: 154px;
+  height: 75px;
+  margin-top: 12px;
+  margin-bottom: 17px;
+  margin-left: 156px;
 }
 
-nav {
+.navigation nav {
   width: 432px;
   height: 24px;
-  top: 50px;
-  left: 591px;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 591px;
+}
+
+.navigation {
+  margin-left: 300px;
 }
 
 .navigation a {
-  margin: 0 50px ;
+  margin: 0 45px ;
   text-decoration: none;
   color: #000;
   font-weight: 700;
+  width: 34px;
+  height: 10px;
 }
 
 .navigation button {
-  color: #6021a7;
+  margin: 50px 29px 26px 159px; 
+  color: #ffffff;
   font-weight: 700;
+  background-color: #0BA14B;
+  height: 36px;
+  border-radius: 5px;
+  border: 2px solid white;
 }

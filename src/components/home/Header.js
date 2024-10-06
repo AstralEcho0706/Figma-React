@@ -7,11 +7,10 @@ const headerData = {
   logo: logo,
   background: background,
   navigation: [
-    { label: "Fertigation Solution", link: "#fertigation" },
-    { label: "Blog", link: "#blog" },
-    { label: "FAQs", link: "#faqs" },
     { label: "Results", link: "#results" },
-    { label: "Contact Us", link: "#contact" },
+    { label: "FAQs", link: "#faqs" },
+    { label: "Blog", link: "#blog" },
+    { label: "Fertigation Solution", link: "#fertigation" },
   ],
 };
 
@@ -24,18 +23,15 @@ function Header() {
       }}
     >
       <div className="header-content">
-        <img
-          class="w-[154px] h-[75px] top-[12px] left-[156px] gap-0 opacity-0"
-          src={headerData.logo}
-          alt="Earthrive Logo"
-          className="logo"
-        />
+        <img src={headerData.logo} alt="Earthrive Logo" className="logo" />
         <nav className="navigation">
-          {headerData.navigation.map((navItem, index) => (
-            <a key={index} href={navItem.link}>
-              {navItem.label}
-            </a>
-          ))}
+          <a className="results" href="/results">
+            Results
+          </a>
+          <a href="/FAQs">FAQs</a>
+          <a href="/Blog">Blog</a>
+          <a href="/Fertigation Solution">Fertigation Solution</a>
+          <button>Contact Us</button>
         </nav>
       </div>
     </header>
