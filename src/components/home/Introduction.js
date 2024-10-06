@@ -1,30 +1,33 @@
 import React from "react";
-import "../../styles/Introduction.css";
-import background from "../../assets/group-3.svg";
-import logo from "../../assets/earthrive-logo-cmyk-01-1-2-2.svg";
-
-const introData = {
-  background: background,
-  logo: logo,
-  title: "Earthrive",
-  description:
-    "We provide and support farmers with customized fertigation and foliar spray nutritional programs and strategies that boost their crops to their maximum potential.",
-};
 
 function Introduction() {
   return (
-    <section
-      className="introduction"
+    <div
+      className="w-full pt-[155px] pl-[151px] pr-[158px] pb-[153px] flex text-white"
       style={{
-        backgroundImage: `url(${introData.background})`,
+        backgroundImage: "url('/group-3.svg')",
         backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
       }}
     >
-      <h1>{introData.title}</h1>
-      <p>{introData.description}</p>
-      <img src={introData.logo} alt="Earthrive Logo" />
-    </section>
-  );
-}
+      <div className="mr-[20px]">
+        <div className="font-bold text-[109px]">Earthrive</div>
+        <div className="text-[27px]">
+          We provide and support farmers with customized fertigation and foliar
+          spray nutritional programs and strategies that boost crops to their
+          maximum potential.
+        </div>
+        <div className="mt-[42px]">
+          <button className="bg-green-400 w-[251px] h-[68px] rounded-xl font-bold text-[24px]">
+            OUR RESULTS
+          </button>
+        </div>
+      </div>
+      <div>
+        <div className="w-[468px] h-[281px] border-2 border-blue-400 bg-[#00000080] rounded-xl"></div>
+      </div>
+    </div>
+  ); /* Rectangle 2 */
+} /* Earthrive */
 
 export default Introduction;
